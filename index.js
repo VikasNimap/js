@@ -11,15 +11,40 @@
 // }
 // console.log(data[i]);
 
-let rows = 5;
-let str=""
-for (let i = 1; i <= rows; i++) {
-    for (let j = 1; j <= i; j++) {
-        str+="*"
-    }
-    str+="\n"
-}
-console.log(str);
+// let rows = 5;
+// let str=""
+// for (let i = 1; i <= rows; i++) {
+//     for (let j = 1; j >= 5; j++) {
+//         str+="*"
+//     }
+//     str+="\n"
+// }
+// // console.log(str);
+// // for (let i = rows; i >= 1; i--) {
+// //     for (let j = 1; j <= i; j++) {
+// //         str+="* "
+// //     }
+// //     str+="\n"
+// // }
+// console.log(str);
+// console.log(str);
+
+
+// let str = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1;j<=i;j++){
+//         str+="* "
+//     }
+//     str+="\n"
+// }
+// for (let i = 4; i >=1; i--) {
+//     for (let j = 1;j<=i;j++){
+//         str+="* "
+//     }
+//     str+="\n"
+// }
+// console.log(str);
+
 
 
 
