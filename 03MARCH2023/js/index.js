@@ -37,7 +37,5 @@
 
 // var a = 20;
 // let a = 10;
-// efefg
 
-// qwertyuiop
-//xcvgrdcvb c
+// ENd
