@@ -159,10 +159,15 @@
 // console.log(filter);\\
 
 
-let data = [12, 0, null, undefined, false, "", NaN];
-for (let i = 0; i < data.length; i++) {
+// let data = [12, 0, null, undefined, false, "", NaN];
+// for (let i = 0; i < data.length; i++) {
 
-    if (data[i] || data[i] === 0) {
-        console.log(data[i]);
-    }
-}
+//     if (data[i] || data[i] === 0) {
+//         console.log(data[i]);
+//     }
+// }
+
+let data = [12, 0, false, undefined, null, NaN];
+let filter = data.filter(e => e || e === 0);
+console.log(filter);
+
