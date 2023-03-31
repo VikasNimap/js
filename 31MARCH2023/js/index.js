@@ -162,7 +162,7 @@
 let data = [12, 0, null, undefined, false, "", NaN];
 for (let i = 0; i < data.length; i++) {
 
-    if (data[i]&&data[i]!==Boolean&&data[i]===0) {
+    if (data[i] || data[i] === 0) {
         console.log(data[i]);
     }
 }
